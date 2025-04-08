@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+             http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/</url-pattern> <!-- Maps the servlet to /hello URL -->
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern> <!-- Maps the servlet to /hello URL -->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EtatServlet</servlet-name>
+        <servlet-class>servlet.EtatServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>EtatServlet</servlet-name>
+        <url-pattern>/etat</url-pattern> <!-- Maps the servlet to /hello URL -->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PrevisionServlet</servlet-name>
+        <servlet-class>servlet.PrevisionServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>PrevisionServlet</servlet-name>
+        <url-pattern>/prevision</url-pattern> <!-- Maps the servlet to /hello URL -->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DepenseServlet</servlet-name>
+        <servlet-class>servlet.DepenseServlet</servlet-class>
+    </servlet>
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>DepenseServlet</servlet-name>
+        <url-pattern>/depense</url-pattern> <!-- Maps the servlet to /hello URL -->
+    </servlet-mapping>
+
+    
+
+</web-app>

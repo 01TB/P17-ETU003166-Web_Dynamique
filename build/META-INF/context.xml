@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/MyDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://172.80.237.54:3306/db_s2_ETU003166"
+              username="ETU003166"
+              password="OYj3LzVe"
+              maxTotal="50"
+              maxIdle="10"
+              maxWaitMillis="-1"/>
+</Context>
